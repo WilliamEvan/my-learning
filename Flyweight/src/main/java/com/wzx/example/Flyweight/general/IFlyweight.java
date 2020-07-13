@@ -1,4 +1,4 @@
-package com.wzx.example.Flyweight.general;
+package com.wzx.example.flyweight.general;
 
 public interface IFlyweight {
 

@@ -1,4 +1,4 @@
-package com.wzx.example.Flyweight.pool;
+package com.wzx.example.flyweight.pool;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

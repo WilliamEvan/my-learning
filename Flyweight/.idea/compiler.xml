@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="flyweight" />
         <module name="Flyweight" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Flyweight" target="1.8" />
+      <module name="flyweight" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

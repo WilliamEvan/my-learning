@@ -1,10 +1,10 @@
-package com.wzx.example.Flyweight;
+package com.wzx.example.flyweight;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class FlyweightApplicationTests {
+class flyweightApplicationTests {
 
 	@Test
 	void contextLoads() {

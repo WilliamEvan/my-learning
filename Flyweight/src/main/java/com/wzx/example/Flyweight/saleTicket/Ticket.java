@@ -1,4 +1,4 @@
-package com.wzx.example.Flyweight.saleTicket;
+package com.wzx.example.flyweight.saleTicket;
 
 public interface Ticket {
 

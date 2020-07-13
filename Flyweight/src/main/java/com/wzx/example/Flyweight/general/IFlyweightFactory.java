@@ -1,4 +1,4 @@
-package com.wzx.example.Flyweight.general;
+package com.wzx.example.flyweight.general;
 
 import java.util.HashMap;
 import java.util.Map;
