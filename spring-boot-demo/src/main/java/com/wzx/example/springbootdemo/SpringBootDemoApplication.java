@@ -12,7 +12,6 @@ public class SpringBootDemoApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext ca = SpringApplication.run(SpringBootDemoApplication.class, args);
-		System.out.println(ca.getBean(WzxCoreApp.class));
 		System.out.println(ca.getBean(RedisTemplate.class));
 	}
 
