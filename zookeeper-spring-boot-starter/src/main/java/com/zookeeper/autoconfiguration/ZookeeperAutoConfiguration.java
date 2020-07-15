@@ -3,6 +3,7 @@ package com.zookeeper.autoconfiguration;
 import org.apache.zookeeper.ZooKeeper;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -22,10 +23,15 @@ public class ZookeeperAutoConfiguration implements InitializingBean {
 
     private StringBuffer stringBuffer;
 
-    @Override
     public void afterPropertiesSet() throws Exception {
         System.out.println("测试自动装配+Bean初始化");
         stringBuffer = new StringBuffer();
+
+    }
+
+    @Bean
+    public ZookeeperProperties getZookeeperProperties(){
+        return new ZookeeperProperties();
     }
 
 }
