@@ -1,0 +1,11 @@
+server:
+  port: 8090
+# 指定服务名称
+spring:
+  application:
+    name: centre-eureka-server-01
+eureka:
+  client:
+    service-url:
+      #指向服务注册中心的地址
+      defaultZone: http://localhost:8091/eureka
